@@ -59,7 +59,7 @@ const installTemplate = async (model: Props) => {
   packageJson.name = appName;
   packageJson.description = '';
   packageJson.version = '0.1.0';
-  packageJson.bin = '';
+  packageJson.bin = './bin/cli.js';
 
   const devDeps = Object.keys(packageJson.devDependencies).length;
 
