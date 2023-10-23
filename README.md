@@ -1,4 +1,4 @@
-# cli for vite base
+# CLI for vite base
 
 Vite base: https://github.com/lehung1109/vite-base
 
